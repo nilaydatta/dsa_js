@@ -1,0 +1,29 @@
+{
+  "name": "dsa_js",
+  "version": "1.0.0",
+  "description": "DSA JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilaydatta/dsa_js.git"
+  },
+  "keywords": [
+    "dsa",
+    "js"
+  ],
+  "author": "Nilay Datta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nilaydatta/dsa_js/issues"
+  },
+  "homepage": "https://github.com/nilaydatta/dsa_js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
