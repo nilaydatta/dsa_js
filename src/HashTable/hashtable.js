@@ -37,11 +37,11 @@ const table = new Hashtable(50);
 
 table.set("name", "Bruce");
 table.set("age", 25);
-table.display();
+// table.display();
 
 
-console.log(table.get("name"));
+// console.log(table.get("name"));
 
-table.set("mame", "Clark");
+table.set("mane", "Clark");
 table.display();
 
